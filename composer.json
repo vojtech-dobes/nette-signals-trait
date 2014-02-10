@@ -1,0 +1,20 @@
+{
+    "name": "vojtech-dobes/nette-signals-trait",
+    "description": "Learn any of your Nette components to understand signals!",
+    "keywords": ["nette"],
+    "homepage": "http://github.com/vojtech-dobes/nette-signals-trait",
+    "license": "New BSD",
+    "authors": [
+        {
+            "name": "Vojtěch Dobeš",
+            "email": "me@vojtechdobes.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "nette/nette": "~2.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
