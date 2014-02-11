@@ -19,7 +19,7 @@ Get the source code from Github or via Composer (`vojtech-dobes/nette-signals-tr
 
 1.. Make your component (implementation of `Nette\ComponentModel\IComponent`) implement `Nette\Application\UI\ISignalReceiver` interface.
 ```php
-class AutocompleteField extends Nette\Forms\Controls\TextInput implementes Nette\Application\UI\ISignalReceiver
+class AutocompleteField extends Nette\Forms\Controls\TextInput implements Nette\Application\UI\ISignalReceiver
 ```
 
 2.. Use `Nextras\Signals\Receiver` trait in your component .
